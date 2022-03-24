@@ -1,0 +1,28 @@
+{
+    "server": {
+        "server_name": "gin-base",
+        "server_mode": "debug",
+        "server_host": "localhost",
+        "server_port": 8090,
+        "server_read_timeout": 60,
+        "server_write_timeout": 60
+    },
+    "sms": {
+        "sign_name": "",
+        "template_code": "",
+        "app_key": "",
+        "app_secret": "",
+        "region_id": ""
+    },
+    "database": {
+        "driver": "mysql",
+        "user": "user",
+        "password": "",
+        "host": "localhost",
+        "port": 3306,
+        "name": "",
+        "charset": "utf8",
+        "show_sql": true
+    },
+    "redis": {}
+}
